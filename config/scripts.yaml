@@ -1,0 +1,7 @@
+﻿demo2_script:
+  alias: "Demo2 Script"
+  sequence:
+    - service: logbook.log
+      data:
+        name: "Demo2"
+        message: "Script ran"

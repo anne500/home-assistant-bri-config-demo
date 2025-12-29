@@ -1,0 +1,8 @@
+﻿homeassistant:
+  name: "BRI Demo 2 Home"
+  time_zone: "America/Los_Angeles"
+
+default_config:
+
+logger:
+  default: info

@@ -1,0 +1,10 @@
+﻿- id: demo2_midnight_log
+  alias: "Demo2 Midnight Log"
+  trigger:
+    - platform: time
+      at: "00:00:00"
+  action:
+    - service: logbook.log
+      data:
+        name: "Demo2"
+        message: "Automation triggered"

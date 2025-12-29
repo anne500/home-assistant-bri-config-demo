@@ -87,3 +87,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+.venv/
+__pycache__/
+.pytest_cache/
+
